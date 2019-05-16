@@ -1,4 +1,4 @@
-:boom: react-native-workshop :boom:
+:boom: :iphone: react-native-workshop :iphone: :boom:
 ===
 A hands-on workshop :computer: on building Native iOS and Android applications with state of the art React Native.
 
