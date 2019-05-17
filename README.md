@@ -15,6 +15,12 @@ Slides Link: [Link](https://google.com)
 * Adding ESLint to the project
 * Plugging Pre-hook commit ESLint
 * Plugging React Navigation
+* Configuring Stack, Tab and Drawer Navigation
+* Configuring Redux library
+* Addng Redux Thunk for async operations
+* Adding JSS - JavaScript StyleSheet
+* Making application responsive for all screen sizes
+* Testing application code (Unit testing)
 
 ### Environment Setup
 > Ideally you should have a Mac machine to be able to develop iOS and Android applications, however though if you happen to have a Linux or Windows machine you could develop an Android application only.
