@@ -44,10 +44,13 @@ Slides Link: [Link](https://google.com)
 * Install Android Studio
 * Setup a new React Native project `react-native init myReactNativeProject`
 
-#### For Android - Linux/Windows
+#### For Android - Windows
 * Install Chocolatey `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
 * Install Node Python2 & JDK8 `choco install -y nodejs.install python2 jdk8`
 >> If you have already installed [Node](https://nodejs.org/) on your system, make sure it is Node 8.3 or newer. If you already have a JDK on your system, make sure it is version 8 or newer.
 * Install React Native Cli `npm install -g react-native-cli`
 * Install Android Studio
 * Setup a new React Native project `react-native init myReactNativeProject`
+
+
+>> For more details how to get started with the environment setup, checkout offical [React Native](https://facebook.github.io/react-native/docs/getting-started) docs
