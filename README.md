@@ -30,7 +30,7 @@ Slides Link: [Link](https://google.com)
 * Install Watchman `brew install watchman`
 >> If you have already installed [Node](https://nodejs.org/) on your system, make sure it is Node 8.3 or newer.
 >> [Watchman](https://facebook.github.io/watchman) is a tool by Facebook for watching changes in the filesystem. It is highly recommended you install it for better performance.
-* React Native Cli `npm install -g react-native-cli`
+* Install React Native Cli `npm install -g react-native-cli`
 * Install XCode 
 * Setup a new React Native project `react-native init myReactNativeProject`
 
@@ -40,6 +40,11 @@ Slides Link: [Link](https://google.com)
 * Install Watchman `brew install watchman`
 >> If you have already installed [Node](https://nodejs.org/) on your system, make sure it is Node 8.3 or newer.
 >> [Watchman](https://facebook.github.io/watchman) is a tool by Facebook for watching changes in the filesystem. It is highly recommended you install it for better performance.
-* React Native Cli `npm install -g react-native-cli`
+* Install React Native Cli `npm install -g react-native-cli`
 * Install Android Studio
 * Setup a new React Native project `react-native init myReactNativeProject`
+
+#### For Android - Linux/Windows
+* Install Chocolatey `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
+* Install Node Python2 & JDK8 `choco install -y nodejs.install python2 jdk8`
+>> If you have already installed [Node](https://nodejs.org/) on your system, make sure it is Node 8.3 or newer. If you already have a JDK on your system, make sure it is version 8 or newer.
