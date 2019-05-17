@@ -9,6 +9,9 @@ Slides Link: [Link](https://google.com)
 * What is React?
 * Theory of React, Vitual DOM, JSX, Components, Lifecycle Methods, State & Props
 * Difference between ReactJS and React Native
+* Why should you learn React Native?
+* Who is using React Native?
+* Hello World iOS and Android application using React Native?
 
 ### Environment Setup
 > Ideally you should have a Mac machine to be able to develop iOS and Android applications, however though if you happen to have a Linux or Windows machine you could develop an Android application only.
