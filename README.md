@@ -12,6 +12,9 @@ Slides Link: [Link](https://google.com)
 * Why should you learn React Native?
 * Who is using React Native?
 * Hello World iOS and Android application using React Native?
+* Adding ESLint to the project
+* Plugging Pre-hook commit ESLint
+* Plugging React Navigation
 
 ### Environment Setup
 > Ideally you should have a Mac machine to be able to develop iOS and Android applications, however though if you happen to have a Linux or Windows machine you could develop an Android application only.
