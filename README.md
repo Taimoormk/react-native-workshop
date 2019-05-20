@@ -19,6 +19,7 @@ Slides Link: [Link](https://google.com)
 * Configuring Redux library
 * Addng Redux Thunk for async operations
 * Adding JSS - JavaScript StyleSheet
+* Introducing Flexbox for mobile layouts
 * Making application responsive for all screen sizes
 * Testing application code (Unit testing)
 
@@ -51,6 +52,5 @@ Slides Link: [Link](https://google.com)
 * Install React Native Cli `npm install -g react-native-cli`
 * Install Android Studio
 * Setup a new React Native project `react-native init myReactNativeProject`
-
 
 >> For more details how to get started with the environment setup, checkout offical [React Native](https://facebook.github.io/react-native/docs/getting-started) docs
