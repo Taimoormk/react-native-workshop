@@ -2,7 +2,7 @@
 ===
 A hands-on workshop on building Native iOS and Android applications with state of the art React Native.
 
-Slides Link: [Link](https://google.com)
+Slides Link: [Link](https://docs.google.com/presentation/d/1oEJ5zC-RQHYYcea5tgEOADKNtW-aeFtMjuiaG2VXEeE/edit?usp=sharing)
 
 ## Table of Contents
 * Setting Up Environment
