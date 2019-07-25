@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3695ac54-e9f9-40af-bddb-a32094ca492e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/reactnativeworkshop/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/reactnativeworkshop/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/reactnativeworkshop/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,9 +45,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="214" />
-    <option name="y" value="54" />
+    <option name="y" value="23" />
     <option name="width" value="1446" />
-    <option name="height" value="1045" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -57,6 +55,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -114,7 +113,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -148,11 +146,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="54" width="1446" height="1045" extended-state="0" />
-    <editor active="true" />
+    <frame x="214" y="23" width="1446" height="1032" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3340456" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33903134" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
