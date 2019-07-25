@@ -56,7 +56,7 @@ Slide Link: [Link](https://docs.google.com/presentation/d/1oEJ5zC-RQHYYcea5tgEOA
 >> For more details how to get started with the environment setup, checkout offical [React Native](https://facebook.github.io/react-native/docs/getting-started) docs
 
 ## React Native Boilerplates or StarterKits
-Checkout React Native Boilerplates or StarterKits for your next project, and should you like this open source project, remember to star, fork and share the repo with others in this domain. Any suggestions to add more boilerplates would be highly appreciated.
+Checkout React Native Boilerplates or StarterKits for your next project, and should you like this open source project, remember to ####star####, ####fork#### and ####share#### the repo with others in this domain. Any suggestions to add more boilerplates would be highly appreciated.
 
 <img width="100%" src="https://camo.githubusercontent.com/b3338a9d26ce4dbe5b5e4025c27f4761adafa058/68747470733a2f2f692e6962622e636f2f6e6e32583177522f524e426f696c6572706c617465732e6a7067" alt="react native boilerplates" />
 
