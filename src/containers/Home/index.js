@@ -1,10 +1,24 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableHighlight } from 'react-native';
+import { styles } from './styles';
+import { connect } from 'react-redux';
+import * as actions from '../../actions';
 
-const Home = () => (
-  <View>
+const Home = ({ counter }) => (
+  <View style={styles.container}>
     <Text>Home</Text>
+    <Text>Counter: {counter}</Text>
+    {/* <TouchableHighlight>Increment</TouchableHighlight> */}
+    {/* <TouchableHighlight>Decrement</TouchableHighlight> */}
   </View>
-)
+);
 
-export default Home;
+const mapStateToProps = ({ counterReducer }) => ({
+  counter: counterReducer.counter
+});
+
+const mapDispatchToProps = {
+  incrementCounter: actions.incrementCounterAction,
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
