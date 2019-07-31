@@ -1,14 +1,18 @@
 import React from 'react';
-import { View, Text, TouchableHighlight } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 import { styles } from './styles';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
-const Home = ({ counter }) => (
+const Home = ({ counter, incrementCounter }) => (
   <View style={styles.container}>
     <Text>Home</Text>
     <Text>Counter: {counter}</Text>
-    {/* <TouchableHighlight>Increment</TouchableHighlight> */}
+    <TouchableOpacity onPress={incrementCounter}>
+      <Text>
+        Increment
+      </Text>
+    </TouchableOpacity>
     {/* <TouchableHighlight>Decrement</TouchableHighlight> */}
   </View>
 );
