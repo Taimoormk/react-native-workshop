@@ -16,7 +16,7 @@ class Dashboard extends React.Component {
 
   render() {
     const { textInput } = this.state;
-    const { userdata } = this.props;
+    const { loading, user } = this.props;
     return (
       <View>
         <Text>Dashboard</Text>
@@ -31,23 +31,17 @@ class Dashboard extends React.Component {
         <Button
           icon="add-a-photo"
           mode="contained"
-          color={STYLE_CONSTANTS.COLORS.SECONDARY}
           onPress={this.onPressHandler}
         >
           Fetch Repos
         </Button>
+        {loading && <Text>Loading...</Text>}
         {
-          userdata && (
-            <View style={styles.userDataContainer}>
-              <View style={styles.avatarContainer}>
-                <Image style={styles.userAvatar} source={{ uri: userdata.avatarUrl }} />
-              </View>
-              <View style={styles.userContainer}>
-                <Headline style={styles.userData}>{userdata.name}</Headline>
-                <Title style={styles.userData}>{userdata.bio}</Title>
-                <Title style={styles.userData}>{userdata.company}</Title>
-                <Title style={styles.userData}>{userdata.location}</Title>
-              </View>
+          user && (
+            <View>
+              <Headline>
+                {user.name}
+              </Headline>
             </View>
         )}
       </View>
@@ -55,8 +49,9 @@ class Dashboard extends React.Component {
   };
 }
 
-const mapStateToProps = () => ({
-
+const mapStateToProps = ({ userReducer }) => ({
+  loading: userReducer.loading,
+  user: userReducer.user,
 });
 
 const mapDispatchToProps = {
