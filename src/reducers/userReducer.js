@@ -9,6 +9,7 @@ const initial = {
 export default (state = initial, action) => {
   switch (action.type) {
     case types.DASHBOARD_SUCCESS:
+      console.log('reducer', action.payload);
       return { ...state, loading: false, data: action.payload };
     case types.DASHBOARD_FAIL:
       return { ...state, loading: false, error: action.payload };

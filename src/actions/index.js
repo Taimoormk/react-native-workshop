@@ -1,7 +1,11 @@
 import * as types from '../constants';
-
+import axios from 'axios';
 export const incrementCounterAction = () => ({
   type: types.INCREMENT_COUNTER,
+});
+
+export const fetchGitHubUserAttemptAction = () => ({
+  type: types.FETCH_GITHUB_USER_ATTEMPT,
 });
 
 export const fetchGitHubUserSuccessAction = data => ({
@@ -14,12 +18,12 @@ export const fetchGitHubUserFailAction = err => ({
   payload: err
 });
 
-export const fetchGitHubUserAttemptAction = username => {
+export const fetchGitHubUser = username => {
   const thunk = async function thunk(dispatch) {
     try {
-      const data = await fetch('GET', `https://api.github.com/users/${username}`);
-      const result = data.json();
-      dispatch(fetchGitHubUserSuccessAction(result));
+      dispatch(fetchGitHubUserAttemptAction());
+      const body = await axios(`https://api.github.com/users/${username}`);
+      dispatch(fetchGitHubUserSuccessAction(body.data));
     } catch (err) {
       dispatch(fetchGitHubUserFailAction(err));
     }

@@ -1,17 +1,18 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { connect } from 'react-redux';
 import { TextInput, Button, Headline, Title } from 'react-native-paper';
 import * as actions from '../../actions';
 
 class Dashboard extends React.Component {
   state = {
-    textInput = '',
+    textInput: '',
   }
 
   onPressHandler = () => {
     const { textInput } = this.state;
-    const { fetchGitHubUserAttempt } = this.props;
-    fetchGitHubUserAttempt(textInput);
+    const { fetchGitHubUser } = this.props;
+    fetchGitHubUser(textInput);
   };
 
   render() {
@@ -25,7 +26,6 @@ class Dashboard extends React.Component {
           label="Enter GitHub handle"
           autoCapitalize="none"
           value={textInput}
-          style={styles.input}
           onChangeText={val => this.setState({ textInput: val })}
         />
         <Button
@@ -55,7 +55,7 @@ const mapStateToProps = ({ userReducer }) => ({
 });
 
 const mapDispatchToProps = {
-  fetchGitHubUserAttempt: actions.fetchGitHubUserAttemptAction,
+  fetchGitHubUser: actions.fetchGitHubUser,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);
